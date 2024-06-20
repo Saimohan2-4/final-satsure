@@ -6,9 +6,9 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 repo_owner = 'Saimohan2-4'
-repo_name = 'sample-for-satsure-data'
+repo_name = 'final-satsure'
 branch = 'main'
-file_path = 'sample_dataset_large.csv'
+file_path = '/assets/sample_dataset_large.csv'
 
 # Construct the raw GitHub URL
 url = f'https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}/{file_path}'
